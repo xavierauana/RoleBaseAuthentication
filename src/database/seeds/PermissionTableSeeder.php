@@ -20,7 +20,10 @@ use Illuminate\Database\Seeder;
         ];
 
         $objects = [
-          'page'
+          'page',
+          'permission',
+          'user',
+          'role'
         ];
 
         foreach($objects as $object)
