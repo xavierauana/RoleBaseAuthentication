@@ -1,0 +1,14 @@
+{
+    "name": "xavierau/role-base-authntication",
+    "description": "Role base authentication",
+    "authors": [
+        {
+            "name": "Xavier Au",
+            "email": "xavier.au@anacreation.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "5.1.*"
+    }
+}
