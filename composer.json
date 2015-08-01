@@ -1,5 +1,5 @@
 {
-    "name": "xavierau/role-base-authntication",
+    "name": "xavierau/role-base-authentication",
     "description": "Role base authentication",
     "authors": [
         {
@@ -8,6 +8,9 @@
         }
     ],
     "minimum-stability": "dev",
+    "psr-4": {
+        "Xavierau\\RoleBaseAuthentication\\": "src/"
+    },
     "require": {
         "laravel/framework": "5.1.*"
     }
