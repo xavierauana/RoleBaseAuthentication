@@ -1,5 +1,4 @@
 <?php
-    namespace Xavierau\RoleBaseAuthentication\database\migrations;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
