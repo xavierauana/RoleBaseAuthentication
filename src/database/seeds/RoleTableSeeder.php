@@ -1,4 +1,5 @@
 <?php
+    namespace Xavierau\RoleBaseAuthentication\database\seeds;
 
 use Illuminate\Database\Seeder;
     use Illuminate\Support\Facades\DB;

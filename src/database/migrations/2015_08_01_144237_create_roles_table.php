@@ -1,9 +1,10 @@
 <?php
+    namespace Xavierau\RoleBaseAuthentication\database\migrations;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableRoles extends Migration
+class CreateRolesTable extends Migration
 {
     /**
      * Run the migrations.
