@@ -18,6 +18,7 @@ use Illuminate\Database\Seeder;
             'administrator',
             'user'
         ];
+        DB::table('roles')->truncate();
         foreach($roles as $role){
             DB::table('roles')->insert([
                 'code' => strtolower($role),

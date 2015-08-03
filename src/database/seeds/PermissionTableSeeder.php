@@ -26,7 +26,7 @@
           'user',
           'role'
         ];
-
+        DB::table('permissions')->truncate();
         foreach($objects as $object)
         {
             foreach($actions as $action){
