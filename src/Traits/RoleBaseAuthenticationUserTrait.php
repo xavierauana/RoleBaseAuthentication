@@ -30,8 +30,17 @@
         public function hasRole($role)
         {
             $roleArray = $this->roles()->lists('code')->toArray();
-            if(! in_array(strtolower($role), $roleArray)) return false;
-            return true;
+            if(is_array($role))
+            {
+                foreach($role as $value)
+                {
+                    if(in_array(strtolower($value), $roleArray)) return true;
+                }
+                return false;
+            }else{
+                if(! in_array(strtolower($role), $roleArray)) return false;
+                return true;
+            }
         }
 
         public function canDo($object, $action)
