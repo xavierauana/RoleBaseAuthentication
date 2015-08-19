@@ -34,7 +34,8 @@ class RolesController extends Controller
      */
     public function index()
     {
-        //
+        $roles = $this->role->all();
+        return view('RoleBaseAuthentication.roles.index', compact("roles"));
     }
 
     /**
@@ -107,6 +108,7 @@ class RolesController extends Controller
         }
 
         $role->updateRoleRecord($request, $id);
+        return redirect()->route("admin.roles.index");
         return "Role updated";
     }
 

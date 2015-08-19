@@ -133,3 +133,4 @@ class PermissionsController extends Controller
         return redirect("/");
     }
 }
+
